@@ -1,7 +1,7 @@
 function hideAllPirates() {
     const pirates = document.querySelectorAll('.pirata');
     pirates.forEach(pirate => pirate.classList.remove('show'));
-    document.querySelectorAll('.overlay-image, .effects-image, .green-image').forEach(element => {
+    document.querySelectorAll('.overlay-image, .effects-image, .green-image, .florest-image').forEach(element => {
         element.style.display = 'none';
     });
 }
@@ -25,4 +25,11 @@ document.getElementById('jrnami').addEventListener('click', function() {
     document.getElementById('imgNami').classList.add('show');
     document.getElementById('overlayOrange').style.display = 'block';
     document.getElementById('yellowEffect').style.display = 'block';
+});
+
+document.getElementById('jrusopp').addEventListener('click', function() {
+    hideAllPirates();
+    document.getElementById('imgUsopp').classList.add('show');
+    document.getElementById('overlayBrown').style.display = 'block';
+    document.getElementById('florestEffect').style.display = 'block';
 });

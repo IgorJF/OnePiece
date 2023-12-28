@@ -40,6 +40,9 @@ body{
     .jrnami{
         background-color: orange;
     }
+    .jrusopp{
+        background-color: rgb(111, 56, 13);
+    }
 
 .jolly-roger img {
     max-width: 80px;
@@ -151,5 +154,16 @@ body{
     z-index: 999; 
   }
   
+  .florest-image {
+    position: fixed;
+    bottom: -10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    z-index: -1; 
+  }
   
   
