@@ -1,6 +1,15 @@
+.container {
+    position: fixed;
+    top: 50%; 
+    right: 20px; 
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column; 
+}
+
 .jolly-roger {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     background-color: black;
     display: flex;
@@ -15,15 +24,32 @@
     .jrzoro{
         background-color: green;
     }
+    .jrnami{
+        background-color: orange;
+    }
 
 .jolly-roger img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 80px;
+    max-height: 80px;
     object-fit: cover;
+}
+
+.tripulacao {
+    text-align: center;
 }
 
 .pirata img {
     max-width: 750px;
-    max-height: 950px;
+    max-height: 750px;
     object-fit: cover;
+}
+
+.pirata ul{
+    list-style: none;
+    position: fixed;
+    top: 50%; 
+    left: 20px; 
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column; 
 }
