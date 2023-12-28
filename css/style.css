@@ -21,3 +21,9 @@
     max-height: 100px;
     object-fit: cover;
 }
+
+.pirata img {
+    max-width: 750px;
+    max-height: 950px;
+    object-fit: cover;
+}
