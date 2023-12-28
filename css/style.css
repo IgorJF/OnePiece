@@ -1,3 +1,21 @@
+.jolly-roger {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black; 
+}
+
+    .jrluffy{
+        background-color: red;
+    }
+    .jrzoro{
+        background-color: green;
+    }
+
 .jolly-roger img {
     max-width: 100px;
     max-height: 100px;
