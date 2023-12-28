@@ -1,5 +1,6 @@
 body{
     background: rgb(33, 33, 34);
+    overflow: hidden;
 }
 
 @font-face {
@@ -52,7 +53,39 @@ body{
 
 .pirata {
     position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    height: 600px; 
+    overflow: hidden; 
 }
+
+.pirata.show {
+    opacity: 1;
+}
+
+.pirata h1 {
+    font-family: 'One Piece';
+    color: white;
+    font-size: 80px;
+    margin-top: 0;
+    position: fixed;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pirata h3 {
+    font-family: 'Gotham';
+    font-style: bold;
+    color: white;
+    margin-top: 60px; 
+    font-size: 36px;
+    position: fixed;
+    top: 50px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 .pirata img {
     position: fixed;
@@ -82,21 +115,6 @@ body{
         color: white;
         font-size: 24px;
     }
-
-.pirata h1{
-    font-family: 'One Piece';
-    color: white;
-    font-size: 80px;
-    margin-top: 0;
-}
-
-.pirata h3{
-    font-family: 'Gotham';
-    font-style: bold;
-    color: white;
-    margin-top: -30px;
-    font-size: 36px;
-}
 
 .overlay-image {
     position: fixed;
