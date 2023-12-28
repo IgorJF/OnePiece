@@ -1,6 +1,5 @@
 body{
-    background: rgb(44,44,45);
-    background: linear-gradient(0deg, rgba(44,44,45,1) 0%, rgba(18,18,19,1) 100%);
+    background: rgb(33, 33, 34);
 }
 
 @font-face {
@@ -51,7 +50,15 @@ body{
     text-align: center;
 }
 
+.pirata {
+    position: relative;
+}
+
 .pirata img {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     max-width: 750px;
     max-height: 750px;
     object-fit: cover;
@@ -99,6 +106,32 @@ body{
     height: 100%;
     object-fit: cover;
     display: none;
-    z-index: 999; /* Para garantir que fiquem sobrepostas a outros elementos */
+    z-index: 999;
   }
+
+  .effects-image {
+    position: fixed;
+    bottom: -300px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    z-index: 999; 
+  }
+
+  .green-image {
+    position: fixed;
+    bottom: -10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    z-index: 999; 
+  }
+  
+  
   
