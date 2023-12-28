@@ -33,3 +33,45 @@ document.getElementById('jrusopp').addEventListener('click', function() {
     document.getElementById('overlayBrown').style.display = 'block';
     document.getElementById('florestEffect').style.display = 'block';
 });
+
+document.getElementById('jrsanji').addEventListener('click', function() {
+    hideAllPirates();
+    document.getElementById('imgSanji').classList.add('show');
+    document.getElementById('overlayYellow').style.display = 'block';
+    document.getElementById('fireEffect').style.display = 'block';
+});
+
+document.getElementById('jrchopper').addEventListener('click', function() {
+    hideAllPirates();
+    document.getElementById('imgChopper').classList.add('show');
+    document.getElementById('overlayPink').style.display = 'block';
+    document.getElementById('florestEffect').style.display = 'block';
+});
+
+document.getElementById('jrrobin').addEventListener('click', function() {
+    hideAllPirates();
+    document.getElementById('imgRobin').classList.add('show');
+    document.getElementById('overlayPurple').style.display = 'block';
+    document.getElementById('florestEffect').style.display = 'block';
+});
+
+document.getElementById('jrfranky').addEventListener('click', function() {
+    hideAllPirates();
+    document.getElementById('imgFranky').classList.add('show');
+    document.getElementById('overlayBlue').style.display = 'block';
+    document.getElementById('florestEffect').style.display = 'block';
+});
+
+document.getElementById('jrbrook').addEventListener('click', function() {
+    hideAllPirates();
+    document.getElementById('imgBrook').classList.add('show');
+    document.getElementById('overlayWhite').style.display = 'block';
+    document.getElementById('florestEffect').style.display = 'block';
+});
+
+document.getElementById('jrjinbei').addEventListener('click', function() {
+    hideAllPirates();
+    document.getElementById('imgJinbei').classList.add('show');
+    document.getElementById('overlayDarkBlue').style.display = 'block';
+    document.getElementById('florestEffect').style.display = 'block';
+});
