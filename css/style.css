@@ -1,3 +1,14 @@
+body{
+    background-color: rgb(19, 18, 18);
+}
+
+@font-face {
+    font-family: 'One Piece' ;
+    src: url('font/one piece font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container {
     position: fixed;
     top: 50%; 
@@ -42,6 +53,9 @@
     max-width: 750px;
     max-height: 750px;
     object-fit: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .pirata ul{
@@ -52,4 +66,25 @@
     transform: translateY(-50%); 
     display: flex;
     flex-direction: column; 
+}
+
+    .pirata ul li{
+        font-family: 'One Piece';
+        color: white;
+        font-size: 24px;
+    }
+
+.pirata h1{
+    font-family: 'One Piece';
+    color: white;
+    font-size: 80px;
+    margin-top: 0;
+}
+
+.pirata h3{
+    font-family: 'Gotham';
+    font-style: bold;
+    color: white;
+    margin-top: -30px;
+    font-size: 36px;
 }
