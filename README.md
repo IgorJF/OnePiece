@@ -14,7 +14,7 @@ O início da página consiste em uma tela escura, com os icones de cada personag
 ![usopp](https://github.com/IgorJF/OnePiece/assets/111748228/ec224f06-eeff-4518-b509-ab98f9e01a14)
 
 ---
-É possível visualizar a página completa clicando [aqui] (https://igorjf.github.io/OnePiece/).
+É possível visualizar a página completa clicando [aqui](https://igorjf.github.io/OnePiece/).
 
 ---
 ###### Igor Jorge Ferraz.
